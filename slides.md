@@ -87,9 +87,17 @@ transition: slide-left
 
 > Lambda は、設定されたメモリの量に比例して CPU パワーを割り当てます。
 
+<div class="citation absolute bottom-5">
+引用：https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/configuration-memory.html
+</div>
+
 <style>
 p {
   font-size: 24px;
+}
+
+.citation {
+  font-size: 16px
 }
 </style>
 
