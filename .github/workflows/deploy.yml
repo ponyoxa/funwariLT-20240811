@@ -1,6 +1,28 @@
 name: Deploy pages
 on: push
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build --base /${{github.event.repository.name}}/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -9,9 +31,9 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install
+        run: yarn install
       - name: Build
-        run: npm run build
+        run: yarn run build
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
