@@ -6,7 +6,6 @@ theme: default
 # some information about your slides (markdown enabled)
 title: ふんわりLT 20240811
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
 transition: slide-left
