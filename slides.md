@@ -65,7 +65,7 @@ layout: default
 transition: slide-left
 ---
 
-# Lambda の設定について簡単に
+# Lambda について簡単に
 
 <div class="text-2xl">
 
