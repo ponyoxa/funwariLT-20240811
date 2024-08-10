@@ -41,6 +41,8 @@ TypeScript メインのバックエンドエンジニア
 
 初めて slidev でスライドを作ったけどあまり使いこなせなかった orz
 
+初めての LT !!
+
 <img src="./img/icon.png" class="absolute top-40 right-10 w-60">
 
 <style>
