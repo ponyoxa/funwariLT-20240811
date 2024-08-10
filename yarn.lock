@@ -572,6 +572,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/emojione@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@iconify-json/emojione/-/emojione-1.1.11.tgz#58b069f5d79c1387a19da3c99cc2449e69afae98"
+  integrity sha512-pbmXfT7dw87uXgjbZNzN1g4lkO+Td3dSI/39ev0Z5SPozFRoJ8itiGLDO+6bCV62AS6ePQEndJUrs8ZF9wpE9g==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.13":
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.13.tgz#242b1fcde91d3ca7ef64372475521dce41b047ac"
@@ -583,6 +590,13 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@iconify-json/svg-spinners/-/svg-spinners-1.1.2.tgz#930a8540f676cbc3f14696562df23132473d8261"
   integrity sha512-Aab6SqkORaTJ1W+ooufn6C8BsBitrn3uk8iRQLPA6pjhyvQAhkKCGMctyXIL5ZjrycnoFVsZ4mx7KnwEMra8qg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/twemoji@^1.1.16":
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@iconify-json/twemoji/-/twemoji-1.1.16.tgz#fe2db6c54e0ac4f0c4305ca8069e38d7c0aefd22"
+  integrity sha512-uAUlu4l7UZXDX2W7kfwttsObf76t+myPRxgIfU6IL1jQsbQTG/ouC2NBhrgBI8iq6eCweDhLuBorCdMlDkE9fQ==
   dependencies:
     "@iconify/types" "*"
 

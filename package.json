@@ -12,5 +12,9 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.4.33"
+  },
+  "devDependencies": {
+    "@iconify-json/emojione": "^1.1.11",
+    "@iconify-json/twemoji": "^1.1.16"
   }
 }
